@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: f601fd9cc362b7020509e6f053225d364a73fabbfb8e1e68c38ca0e3387b7acf
+-- hash: 26e636c673f8b4a741d5cec32c96fb4602b643cd725850864c529baf8a0c7e3a
 
 name:           hs-llvm-tutorial
 version:        0.1.0.0
@@ -12,6 +12,7 @@ author:         Dylan Sprague
 maintainer:     dylan.richard.sprague@gmail.com
 copyright:      2018 Dylan Sprague
 license:        MIT
+license-file:   LICENSE
 build-type:     Simple
 cabal-version:  >= 1.10
 extra-source-files:
