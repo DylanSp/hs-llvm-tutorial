@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 26e636c673f8b4a741d5cec32c96fb4602b643cd725850864c529baf8a0c7e3a
+-- hash: c2710551ddc60a35bb8188c1626e1149e16694750586bc0bf198a58cd759c663
 
 name:           hs-llvm-tutorial
 version:        0.1.0.0
@@ -21,9 +21,13 @@ extra-source-files:
 executable hs-llvm-tutorial
   main-is: Main.hs
   other-modules:
+      AST
+      Lexer
+      Parser
       Paths_hs_llvm_tutorial
   hs-source-dirs:
       src
   build-depends:
       base >=4.7 && <5
+    , parsec
   default-language: Haskell2010
